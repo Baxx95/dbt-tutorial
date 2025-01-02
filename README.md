@@ -93,6 +93,6 @@ Objectifs pédagogiques
 - Comprendre comment nettoyer et transformer des données en SQL.
 - Mettre en œuvre des tests pour garantir la qualité des données.
 
-Auteur
+Auteur : 
 Ce projet a été réalisé par Diakariaou GOUNDIAM (Zakaria) en tant que tutoriel pratique pour se familiariser avec dbt et les bonnes pratiques en data engineering.
 
