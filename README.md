@@ -46,7 +46,7 @@ Les modèles d'analyses finales produisent des insights :
 
 ---
 
-## Tests dbt
+## Tests dbt (à completer ...)
 Des tests automatisés sont utilisés pour garantir la qualité des données :
 - **Tests de données uniques** : Vérifient que certaines colonnes, comme les identifiants clients, n'ont pas de doublons.
 - **Tests de validité** : Vérifient que les données sont conformes aux contraintes (par exemple, des dates valides).
