@@ -43,9 +43,9 @@ CREATE TABLE customers (
     first_name VARCHAR(50) NOT NULL,
     last_name VARCHAR(50) NOT NULL,
     email VARCHAR(100) NOT NULL,
-    country_code CHAR(2), -- Nouvelle colonne ajoutée
-    phone_number VARCHAR(20), -- Colonne ajoutée directement
-    registration_date DATE, -- Colonne ajoutée directement
+    country_code CHAR(2),
+    phone_number VARCHAR(20),
+    registration_date DATE,
     created_at DATETIME NOT NULL,
     updated_at DATETIME DEFAULT NULL
 );
