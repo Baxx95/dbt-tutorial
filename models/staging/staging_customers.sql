@@ -9,6 +9,7 @@ WITH raw_customers AS (
         registration_date AS signup_date
     FROM {{ source('raw_data', 'customers') }}
     WHERE email IS NOT NULL
+        AND country_code IN {{ set_country_filter() }}
 )
 SELECT
     customer_id,
